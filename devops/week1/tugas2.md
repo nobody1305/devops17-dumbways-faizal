@@ -30,4 +30,8 @@ install node dan cek version
 
 <img width="879" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4d05317c-d32d-4389-a0f0-05bd92c0b635">
 
+instal localtunnel
+
+<img width="948" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/564101d3-ba05-4ec8-a731-46a2df052429">
+
 
