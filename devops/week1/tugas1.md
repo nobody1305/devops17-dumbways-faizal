@@ -10,13 +10,12 @@ instalasi ubuntu :
 Download file ubuntu server dan VMware yang dibutuhkan
 Install Vmware
 Masukkan file iso ubuntu server yang telah di download
- 
-
-Masukkan user name dan password
- 
+ ![image](https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3c21cd81-823a-45f8-9c42-9be03a075c9a)
+Masukkan nam, username dan password
+ ![image](https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b755b98c-1087-42e8-915b-c12a2b7d6c20)
 Tentukan directory dari ubuntu server
 Tentukan space minimal 10 Gb
- 
+ ![image](https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/c83a5a62-00af-4d65-a193-3843ac964f51)
 Pada bagian ini klik customize hardware dan tentukan memory yang dibutuhkan (sesuai laptop)
  
 Masuk kebagian network adapter pindah dari Nat ke bridged dan cari adapter yang digunakan Untuk mengecek adapter bisa ke device manager dan kemudian cari network adapter setelah selesai klik oke dan lanjutkan ke instalasi
