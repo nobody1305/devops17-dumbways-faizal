@@ -24,6 +24,19 @@ gunakan exec bash untuk refresh dan jalankan go version untuk mengecek golang
 
 <img width="473" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5290b736-ba99-420d-aa00-4351b6781314">
 
+buat file .go dengna nano index.go
+
+tulis nama kalian dengan kode dibawah
+
+<img width="377" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/82fe7cd3-5b58-4e1c-872e-6a942b2ce40f">
+
+<img width="348" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2e9e58d6-a6cc-4ab8-9c1f-8d2de37868bf">
+
+untuk build kalian bisa gunakan : go build index.go
+
+kemudian run dengan ./index
+
+<img width="345" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/96ea1ec3-f742-41cd-b126-9c1a83d2441d">
 
 
 2.  python
