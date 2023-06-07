@@ -16,6 +16,7 @@ pm2 start app.js
 
 buatlah app untuk python dengan konfigurasi sederhana dan jalankan dengan perintah
 
-pm2 start app.py --name bot --interpreter python3
+pm2 start app.py --name app --interpreter python3
 
-<img width="947" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1176247a-d017-4722-86b9-762ca0fe1ec3">
+<img width="933" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e4dfd6b3-d963-40ff-a48d-a8fb87624d5e">
+
