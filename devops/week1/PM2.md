@@ -1,2 +1,4 @@
-install pm2 dengan 
+install pm2 dengan npm
+
+npm install pm2 -g
 
