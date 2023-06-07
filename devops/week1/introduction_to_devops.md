@@ -74,7 +74,7 @@ Untuk mengecek apakah bisa terhubung dengan internet klik ping google.com jika s
  
  ![image](https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/44035c00-5fc4-482b-aafa-3298310118fa)
 
-Untuk menggunakan remote dengan powershell gunakan ssh <username>@<ip addres>
+Untuk menggunakan remote dengan powershell gunakan ssh username@ip addres
  
  ![image](https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/fa345d35-e4f2-4848-b611-632b9ac6d95d)
 
