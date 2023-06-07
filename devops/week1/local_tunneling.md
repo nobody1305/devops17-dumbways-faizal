@@ -28,7 +28,7 @@ kemudian cek ke ip kalian pada web browser
 
 untuk menggunakan local tunnel disable nginx terlebih dahulu karena port:80 digunakan pada pada nginx. 
 
-jika port tersebut digunakan oleh selain nginx maka disable terlebih dahulu dengan syntax : s
+jika port tersebut digunakan oleh selain nginx maka disable terlebih dahulu dengan syntax : sudo systemctl disable nginx (atau yang lain)
 
 <img width="783" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8c7b6d5a-cc04-41a3-badc-2bd93fbc7310">
 
