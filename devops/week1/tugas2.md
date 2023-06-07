@@ -34,4 +34,13 @@ instal localtunnel
 
 <img width="948" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/564101d3-ba05-4ec8-a731-46a2df052429">
 
+kemudian install apache2
+
+<img width="440" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/21665e76-fb04-4106-8ed0-e731c20176db">
+
+kemudian cek ke ip kalian pada web browser
+
+<img width="631" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8d1c0dec-addb-49ff-a33f-36726f90b854">
+
+
 
