@@ -40,7 +40,8 @@ kemudian install apache2
 
 kemudian cek ke ip kalian pada web browser
 
-<img width="631" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8d1c0dec-addb-49ff-a33f-36726f90b854">
+<img width="660" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/07ddf01b-ddf4-4f87-976f-a4e006630c7f">
+
 
 
 
