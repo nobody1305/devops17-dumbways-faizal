@@ -24,9 +24,11 @@ gunakan exec bash untuk refresh dan jalankan go version untuk mengecek golang
 
 <img width="473" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5290b736-ba99-420d-aa00-4351b6781314">
 
-buat file .go dengna nano index.go
+buat file .go dengan nano index.go
 
 tulis nama kalian dengan kode dibawah
+
+run dengan go run index.go
 
 <img width="377" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/82fe7cd3-5b58-4e1c-872e-6a942b2ce40f">
 
