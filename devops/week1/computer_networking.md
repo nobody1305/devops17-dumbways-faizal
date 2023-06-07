@@ -21,3 +21,6 @@ buatlah jaringan dengan spesifikasi berikut
 - Subnet : 255.255.255.0
 
 - Gateway : 192.168.1.1
+
+![computer networking](https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/6128443b-0481-4d8c-8bc2-be4611e663ac)
+
