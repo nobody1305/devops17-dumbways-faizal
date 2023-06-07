@@ -36,9 +36,19 @@ install = npm install -g serve dan jalankan serve -s build untuk menjalankan apl
 
 <img width="942" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/119ee481-2e2b-4a35-97a7-ce38fc2a2e77">
 
+kita bisa melihat hasilnya walaupun masih terdapat error karena masih ada package yang belum terinstall
 
 <img width="943" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/0d22b90c-810e-4627-b4b0-3cd29ac32514">
 
+kita install dulu package xsel
+
+<img width="795" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/89db3e61-98d4-44a2-bc3d-6dfe2e85256f">
+
+jalankan aplikasi lagi
+
+<img width="569" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7b89829a-fef6-40d8-a60b-400604e83509">
+
+walaupun terdapat error tidak masalah kita tetap bisa menjalankan aplikasi
 
 <img width="805" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1fbc68c9-130c-4dd3-b935-cc05a25e739d">
 
