@@ -42,6 +42,17 @@ kemudian cek ke ip kalian pada web browser
 
 <img width="660" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/07ddf01b-ddf4-4f87-976f-a4e006630c7f">
 
+untuk menggunakan local tunnel disable nginx terlebih dahulu karena port:80 digunakan pada pada nginx dulu
+
+<img width="783" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8c7b6d5a-cc04-41a3-badc-2bd93fbc7310">
+
+kemudian lt --port 80 (bisa gunakan --subdomain jika perlu) untuk local tunnel apache2 
+
+<img width="956" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/948b48f4-8393-4214-b9a2-af6e6c2ea46a">
+
+kemudian masuk ke link tersebut
+
+<img width="770" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f9f1688d-64de-4637-b718-ab0149981dba">
 
 
 
