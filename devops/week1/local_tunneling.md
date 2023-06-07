@@ -26,7 +26,9 @@ kemudian cek ke ip kalian pada web browser
 
 <img width="660" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/07ddf01b-ddf4-4f87-976f-a4e006630c7f">
 
-untuk menggunakan local tunnel disable nginx terlebih dahulu karena port:80 digunakan pada pada nginx dulu
+untuk menggunakan local tunnel disable nginx terlebih dahulu karena port:80 digunakan pada pada nginx. 
+
+jika port tersebut digunakan oleh selain nginx maka disable terlebih dahulu dengan syntax : s
 
 <img width="783" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8c7b6d5a-cc04-41a3-badc-2bd93fbc7310">
 
