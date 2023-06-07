@@ -10,6 +10,37 @@ jalankan wayshub-frontend pada node.js
 
 jawab :
 
+kita menganggap bahwa node.js sudah terinstall pada local tunneling
+
+pertama tama kita git clone repository dari wayshub-frontend
+
+git clone https://github.com/dumbwaysdev/wayshub-frontend
+
+<img width="746" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/01965f55-7215-4dbe-8cc1-b268b809980b">
+
+kita pindah ke folder wayshub-frontend cd wayshub-frontend/
+
+kita bisa lihat bahwa sudah ada package.json dan package-lock.json sehingga tidak perlu set npm init -y
+
+<img width="602" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f30ec4b0-4421-4680-b7dc-7abcfe431686">
+
+untuk melihat versi node yang digunakan saat ini
+
+<img width="341" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1c1cef3c-0998-410c-87f3-84214e01aff5">
+
+jalankan npm run build dan tunggu dengan smpai selesai. kemudian untuk menjankan aplikasi ikuti petunjuk 
+
+<img width="736" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/18bb971f-41e9-426e-8b43-398c93cae194">
+
+install = npm install -g serve dan jalankan serve -s build untuk menjalankan aplikasi pada node.js 
+
+<img width="942" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/119ee481-2e2b-4a35-97a7-ce38fc2a2e77">
+
+
+<img width="943" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/0d22b90c-810e-4627-b4b0-3cd29ac32514">
+
+
+<img width="805" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1fbc68c9-130c-4dd3-b935-cc05a25e739d">
 
 
 jalankan aplikasi golang dan python menampilkan nama sendiri!
