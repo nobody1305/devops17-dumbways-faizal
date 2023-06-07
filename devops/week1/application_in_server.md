@@ -1,4 +1,18 @@
-jalankan aplikasi golang dan python menampilkan nama sendiri
+perbandingan antara monolith dan microservice?
+
+jawab :
+
+monolith merupakan bentuk arsitektur aplikasi yang terdiri dari 1 pusat database yang mencakup semua service
+
+microservice merupakan bentuk aristektur aplikasi yang terdiri dari bagian" tersendiri dan tidak terpusat pada 1 database. setiap service memiliki bagian sendiri
+
+jalankan wayshub-frontend pada node.js
+
+jawab :
+
+
+
+jalankan aplikasi golang dan python menampilkan nama sendiri!
 
 jawab :
 
