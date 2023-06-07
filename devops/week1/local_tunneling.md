@@ -1,4 +1,4 @@
-local tunnel
+local tunneling
 
 install nvm
 
