@@ -2,3 +2,20 @@ install pm2 dengan npm
 
 npm install pm2 -g
 
+<img width="938" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/ca0a63ea-5392-4009-95f5-2e81683ea33b">
+
+jalankan node js dan python pada pm2
+
+buatlah suatu aplikasi dengan node js dengan nano app.js dan buatlah kode simpel. 
+
+kemudian jalankan dengan 
+
+pm2 start app.js
+
+<img width="941" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/0ad521be-c7f0-4c56-8b3f-bcbd33e632ef">
+
+buatlah app untuk python dengan konfigurasi sederhana dan jalankan dengan perintah
+
+pm2 start app.py --name bot --interpreter python3
+
+<img width="947" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1176247a-d017-4722-86b9-762ca0fe1ec3">
