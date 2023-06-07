@@ -97,3 +97,22 @@ kemudian run dengan ./index
 
 
 2.  python
+
+untuk aplikasi python sebenarnya sudah terinstal pada ubuntu server namun packagenya belum ada sehingga perlu diinstall dengan
+
+sudo apt install python3-pip
+
+pip install flask
+
+<img width="951" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f61abea9-7fd7-40c8-8459-f50a0dbec6ad">
+
+namun karena sudah pernah terinstal tampilan jadi seperti ini. kemudian buat file python dengan nano index.py dan masukkan nama seperti pada gambar
+
+<img width="329" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3d238ba6-7644-4733-9714-b1b7c1427911">
+
+kemudian jalankan file dengan python3 index.py dan kita bisa melihat bahwa aplikasi berada pada port 5000
+
+<img width="845" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5e616984-f75d-4cd8-93b3-6acac192e48b">
+
+<img width="326" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/dfca4a26-9b41-48a1-b05a-d00e8e82411c">
+
