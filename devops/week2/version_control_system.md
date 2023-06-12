@@ -38,4 +38,21 @@ masuk ke pembuatan file pertama tama kita lakukan git init kemudian buat 3 file 
 
 <img width="544" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/6a28a861-1726-4d09-8b8b-1d11ae53ba46">
 
+lakukan commit dengan command : git commit -m "isi sendiri"
+
+<img width="393" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/ddbc64ae-95cb-43f7-9555-dc41e0dffcc8">
+
+masukkan git remote add origin git@github.com:username/repository.git
+
+kemudian git push origin master untuk mengupload file ke github account
+
+<img width="661" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/27c05c93-0fac-4370-83b2-cc89b673022d">
+
+jika kita refresh maka akan ada file yang telah kita buat
+
+<img width="700" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e6928dd5-5306-4886-9042-ec8c67e072e7">
+
+buat 2 branch staging dan production dengan git branch nama folder dan kita bisa mengecek branch dengan git branch -a
+
+<img width="316" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5670e63e-9e04-4d66-a5f7-66983b15b249">
 
