@@ -23,3 +23,7 @@ dan kita bisa melihat bahwa file sudah terhapus
 <img width="673" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/ca6686bf-a067-4bae-9650-8eb66a532e7e">
 
 untuk mengembalikan kita lihat kembali ke git log
+
+<img width="663" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/28f0b199-dc6c-4668-b69a-d082f42e82d5">
+
+
