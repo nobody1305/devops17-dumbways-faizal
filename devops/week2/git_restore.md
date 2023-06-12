@@ -12,7 +12,14 @@ kita bisa melihat bahwa terdapat file seperti pada gambar dibawah
 
 <img width="601" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f7f3f9eb-1add-4846-8744-02b538086875">
 
+kemudian kita akan mencoba menghapus fileterhapus dan akan menjadikan versi ke 2
 
-<img width="658" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/c2bd6319-5933-4111-a98a-4c824387cd8b">
+<img width="524" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/968ad828-668f-451d-bfc1-43eb939d3880">
 
+<img width="580" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2f4b2b76-a6c4-4dcd-be2b-df660fd73dfb">
 
+dan kita bisa melihat bahwa file sudah terhapus
+
+<img width="673" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/ca6686bf-a067-4bae-9650-8eb66a532e7e">
+
+untuk mengembalikan kita lihat kembali ke git log
