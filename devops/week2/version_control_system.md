@@ -56,3 +56,19 @@ buat 2 branch staging dan production dengan git branch nama folder dan kita bisa
 
 <img width="316" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5670e63e-9e04-4d66-a5f7-66983b15b249">
 
+untuk pindah branch bisa kita gunakan git checkout namarepository
+
+<img width="339" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8a6957f5-1c3b-4039-ab26-bb2b49d2b006">
+
+coba kita edit isi file1 dan akan kita masukkan kedalam branch production
+
+<img width="507" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d04cef1b-afda-4f75-89b7-89fde82f7a4f">
+
+gunakan git push origin production
+
+<img width="584" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f270793b-13c6-4ee4-8d3f-715f05675f92">
+
+kita bisa melihat perubahan tersebut pada branch production atau git staging yang kita inginkan
+
+<img width="606" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f0d82833-6f3c-4441-85ae-46b5370ddf90">
+
