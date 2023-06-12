@@ -26,4 +26,12 @@ untuk mengembalikan kita lihat kembali ke git log
 
 <img width="663" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/28f0b199-dc6c-4668-b69a-d082f42e82d5">
 
+jalankan git checkout -b (nama branch) SHA
 
+<img width="636" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/ae8acf3f-7724-4501-8abc-0c67bef8b62a">
+
+<img width="607" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/18113cc0-c4f4-4f88-b606-b606930cb7a6">
+
+hasil dari pengembalian file bisa dilihat pada branch old-state
+
+<img width="676" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4eff7fa3-26f1-4a64-9c4a-e3e36abd3456">
