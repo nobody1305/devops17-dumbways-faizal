@@ -72,3 +72,16 @@ kita bisa melihat perubahan tersebut pada branch production atau git staging yan
 
 <img width="606" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f0d82833-6f3c-4441-85ae-46b5370ddf90">
 
+<img width="319" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e58f0a2c-405c-41ac-88da-686b2fdc4881">
+
+2 command git lain
+
+git log : untuk melihat hasil perubahan yang telah dicommit oleh siapa dan jam berapa
+
+<img width="702" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/0c07d522-44c2-4e77-97a7-91b3c5ebe404">
+
+git reset : digunakan untuk mereset aktivitas seperti git add . yang kita lakukan secara tidak sengaja atau aktivitas git lain
+
+<img width="552" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/0307df35-04ea-4c7d-ac7d-a870bd342c5e">
+
+
