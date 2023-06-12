@@ -24,17 +24,18 @@ setelah masuk ke pengaturan github masukkan seperti pada digambar
 
 <img width="857" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a1626930-6610-45bc-bb90-fc29f96e4a3d">
 
-kemudian buat file secara manual pada disk C:Users/HP/.ssh dan paste id_rsa yang telah didapatkan tadi
+kemudian buat file secara manual pada disk C:Users/HP/.ssh dan paste id_rsa yang kita dapatkan. karena kita generate ssh-keygen di server kita maka kita tidak perlu membuat authorization keys seperti pada server kita
 
 <img width="602" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2427fd6e-8697-41e3-b668-43a6f0daba9d">
-
-
-<img width="602" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/934e3587-e470-436d-b86a-777270ba8a1d">
-
 
 langkah awal yang sebaiknya dilakukan adalah mengatur global username dan email dengan menggunakan command
 
 git config --global user.name "username kalian" dan git config --global user.email "email kalian". untuk cek kita bisa gunakan git config --list
 
 <img width="538" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a650d6ad-9a7c-4307-bcad-54ad5ef1df9f">
+
+masuk ke pembuatan file pertama tama kita lakukan git init kemudian buat 3 file dan kita bisa melihat status dengan git status seperti pada gambar dibawah
+
+<img width="544" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/6a28a861-1726-4d09-8b8b-1d11ae53ba46">
+
 
