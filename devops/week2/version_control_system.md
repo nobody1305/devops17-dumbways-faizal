@@ -8,11 +8,21 @@ pertama tama kita akan membuat repository dengan judul contoh repository
 
 sebelum kita membuat file dan melakukan aktivitas pada github melalui terminal, kita perlu mengatur ssh key terlebih dahulu untuk bisa mengakses repository github. 
 
-kita gunakan ssh-keygen untuk membuat ssh key
+kita gunakan ssh-keygen untuk membuat ssh key dengan command ssh-keygen
 
 <img width="489" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1865b647-9166-46c4-b966-6ab5761ebd8b">
 
+setelah ssh-keygen dibuat kita bisa melihat pada folder .ssh untuk mendapatkan ssh key nya.
 
+<img width="569" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/71bfaad4-e4a1-4418-b543-539600115c76">
+
+masuk ke folder .ssh dan kita bisa melihat id_rsa.pub dengan cat id_rsa.pub kemudian copy hasilnya dan masuk ke pengaturan github
+
+<img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/86b449a3-4c3e-46cb-9e82-2c0640425461">
+
+setelah masuk ke pengaturan github masukkan seperti pada digambar
+
+<img width="857" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a1626930-6610-45bc-bb90-fc29f96e4a3d">
 
 langkah awal yang sebaiknya dilakukan adalah mengatur global username dan email dengan menggunakan command
 
