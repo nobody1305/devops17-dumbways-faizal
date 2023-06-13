@@ -10,11 +10,11 @@ sebelum kita membuat file dan melakukan aktivitas pada github melalui terminal, 
 
 kita gunakan ssh-keygen untuk membuat ssh key dengan command ssh-keygen
 
-<img width="489" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1865b647-9166-46c4-b966-6ab5761ebd8b">
+<img width="515" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b696ed39-06e6-4474-9421-f63a6371e3f0">
 
 setelah ssh-keygen dibuat kita bisa melihat pada folder .ssh untuk mendapatkan ssh key nya.
 
-<img width="515" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b696ed39-06e6-4474-9421-f63a6371e3f0">
+<img width="523" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/cecae131-6966-494c-afd9-859696f0a02c">
 
 masuk ke folder .ssh dan kita bisa melihat id_rsa.pub dengan cat id_rsa.pub kemudian copy hasilnya dan masuk ke pengaturan github
 
