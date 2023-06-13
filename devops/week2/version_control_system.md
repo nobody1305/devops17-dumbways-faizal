@@ -18,11 +18,15 @@ setelah ssh-keygen dibuat kita bisa melihat pada folder .ssh untuk mendapatkan s
 
 masuk ke folder .ssh dan kita bisa melihat id_rsa.pub dengan cat id_rsa.pub kemudian copy hasilnya dan masuk ke pengaturan github
 
-<img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/86b449a3-4c3e-46cb-9e82-2c0640425461">
+<img width="949" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9400a81d-8709-428b-8b69-41c702690c16">
 
 setelah masuk ke pengaturan github masukkan seperti pada digambar
 
 <img width="614" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f2326637-9d7d-403a-817d-97ee14b9e41c">
+
+masukkan authorized keys dari id_rsa.pub dan simpan pada .ssh/authorized_keys.
+
+<img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/ab36f4e7-7f63-4473-bc73-7a20c4582ac7">
 
 langkah awal yang sebaiknya dilakukan adalah mengatur global username dan email dengan menggunakan command
 
