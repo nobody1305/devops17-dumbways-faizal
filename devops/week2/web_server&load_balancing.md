@@ -26,4 +26,8 @@ setting myproxy.conf seperti pada gambar dibawah
 
 <img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2886a9fb-7e0d-4608-80d1-f85f429856e7">
 
+masuk ke sudo nano /etc/hosts dan tambahkan ip yang telah kalian setting pada myproxy.conf
+
+<img width="678" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1a92a1ce-dc7d-4487-b466-7bb8b7948279">
+
 
