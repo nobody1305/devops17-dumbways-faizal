@@ -63,3 +63,7 @@ kemudian masuk ke dumbflix-faizal.xyz dan situs sudah bisa diakses
 
 <img width="921" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3fe843ad-e165-4483-852f-4f73dd611145">
 
+untuk menjalankan load balancing kita akan mengatur myproxy seperti pada gambar dan kita akan melanjukannya pada pembahasan load balancing dengan 2 vm
+
+<img width="525" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/309cdd5f-37c6-4dc2-bfc6-4be54f0c6c07">
+
