@@ -10,11 +10,18 @@ misalkan terdapat apache2, kita perlu menghapus terlebih dahulu dengan masuk ke 
 
 <img width="897" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/06b8fa2a-53ae-44a6-a0dc-ff744a7845cc">
 
-sebelum menjalankan pm2 lakukan npm install 10 didalam dumbflix-frontend untuk memunculkan node_module. kemudian jalankan aplikasi dengan
+sebelum menjalankan pm2 lakukan npm install didalam dumbflix-frontend untuk memunculkan node_module.
 
-pm2 start dumbflix-frontend
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/97e10572-9ab7-43c5-bdd3-a60e75a1300b">
 
-<img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d0bf5f11-eca8-4802-b97a-1bd1aab5bbe6">
+<img width="838" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9e8d6fbf-75ae-439a-9572-b6681957d842">
+
+
+kemudian jalankan aplikasi dengan
+
+pm2 serve build
+
+<img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/bfe70295-471d-47e3-bdd5-dc3957c27764">
 
 masuk pada /etc/nginx/sites-enabled atau bisa menggunakan folder lain dengan menambah include /etc/nginx/folder/*;
 
