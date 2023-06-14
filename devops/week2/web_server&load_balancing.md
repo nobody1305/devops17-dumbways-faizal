@@ -51,4 +51,15 @@ masuk ke sudo nano /etc/hosts dan tambahkan ip yang telah kalian setting pada my
 
 <img width="678" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1a92a1ce-dc7d-4487-b466-7bb8b7948279">
 
+kemudian masuk ke folder ini pada laptop kalian
+
+<img width="613" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/36750e20-5fe6-4d9b-867c-4b9908998b96">
+
+masuk ke file hosts sebagai administrator dan tambahkan ip dan domain server.
+
+<img width="413" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/fbf4e411-81ae-4d9f-9a7c-6fbec5cf5755">
+
+kemudian masuk ke dumbflix-faizal.xyz dan situs sudah bisa diakses
+
+<img width="921" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3fe843ad-e165-4483-852f-4f73dd611145">
 
