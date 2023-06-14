@@ -27,6 +27,9 @@ kemudian jalankan aplikasi dengan pm2 serve build
 
 <img width="706" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b95aec18-5117-4407-888d-ceeef38f91d3">
 
+aplikasi bisa dilihat pada ip addres dan pada port 8080 untuk memastikan bahwa aplikasi telah berjalan
+
+<img width="630" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b9db604a-b7d5-416e-8e7c-7ecdbbadf2b7">
 
 <img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/bfe70295-471d-47e3-bdd5-dc3957c27764">
 
