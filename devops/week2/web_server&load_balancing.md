@@ -12,14 +12,21 @@ misalkan terdapat apache2, kita perlu menghapus terlebih dahulu dengan masuk ke 
 
 sebelum menjalankan pm2 lakukan npm install didalam dumbflix-frontend untuk memunculkan node_module.
 
-<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/97e10572-9ab7-43c5-bdd3-a60e75a1300b">
-
 <img width="838" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9e8d6fbf-75ae-439a-9572-b6681957d842">
 
+masukkan npm run build untuk membundle aplikasi
 
-kemudian jalankan aplikasi dengan
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/97e10572-9ab7-43c5-bdd3-a60e75a1300b">
 
-pm2 serve build
+sebelum menjalankan aplikasi dengan pm2 pastikan pm2 sudah terinstall dengan command npm install -g pm2. kemudian install command untuk menjalankan serve yaitu npm install -g serve dan sudo snap install serve
+
+<img width="704" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/596a958c-bb99-4584-8e4b-b9e90027c188">
+
+
+kemudian jalankan aplikasi dengan pm2 serve build
+
+<img width="706" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b95aec18-5117-4407-888d-ceeef38f91d3">
+
 
 <img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/bfe70295-471d-47e3-bdd5-dc3957c27764">
 
