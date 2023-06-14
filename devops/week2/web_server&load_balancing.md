@@ -10,3 +10,20 @@ misalkan terdapat apache2, kita perlu menghapus terlebih dahulu dengan masuk ke 
 
 <img width="897" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/06b8fa2a-53ae-44a6-a0dc-ff744a7845cc">
 
+sebelum menjalankan pm2 lakukan npm install 10 didalam dumbflix-frontend untuk memunculkan node_module. kemudian jalankan aplikasi dengan
+
+pm2 start dumbflix-frontend
+
+<img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d0bf5f11-eca8-4802-b97a-1bd1aab5bbe6">
+
+masuk pada /etc/nginx/sites-enabled atau bisa menggunakan folder lain dengan menambah include /etc/nginx/folder/*;
+
+<img width="914" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2edbca08-e5db-4d36-9795-73aa8f2b2aca">
+<img width="514" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/cd735448-a182-4ac2-afc9-723f73368751">
+
+
+setting myproxy.conf seperti pada gambar dibawah
+
+<img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2886a9fb-7e0d-4608-80d1-f85f429856e7">
+
+
