@@ -39,9 +39,13 @@ masuk pada /etc/nginx/sites-enabled atau bisa menggunakan folder lain dengan men
 <img width="514" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/cd735448-a182-4ac2-afc9-723f73368751">
 
 
-setting myproxy.conf seperti pada gambar dibawah
+setting myproxy.conf seperti pada gambar dibawah. untuk mengecek apakah konfigurasi berhasil cek dengan sudo nginx -t
 
 <img width="610" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7e377188-4942-4b6c-a134-7ca9de21f7a4">
+
+kemudian reload nginx dengan sudo systemctl reload nginx. 
+
+<img width="881" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/204a6674-9e2d-4b2f-b257-81ca646a2c5b">
 
 masuk ke sudo nano /etc/hosts dan tambahkan ip yang telah kalian setting pada myproxy.conf
 
