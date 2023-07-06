@@ -46,5 +46,20 @@ kemudian set mysql_secure_installation kemudian atur sedemikian sesuai dengan ke
 4. menghilangkan test database
 5. reload privillege tabel untuk memastikan semua perubahan akan langsung dapat berjalan
 
-
 <img width="810" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8beb0adf-25bc-4f4a-bc5d-f04a90069a96">
+
+untuk menambahkan user pada mysql kita bisa gunakan create user 'userbaru'@'%' identified by 'password';
+
+<img width="582" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/52a172c8-be7c-4e6b-ba0b-c845c0c7dc79">
+
+kemudian masuk ke root dan grant all privileges on *.* to 'userbaru'@'%';
+
+<img width="956" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8dffd205-c4cb-46f3-aaee-792c45f06c3d">
+
+masuk kembali sebagai user dan kita sudah bisa membuat database melalui user baru
+
+<img width="622" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/32f27972-2f3e-4282-86e8-61fbaa526eba">
+
+kemudian kita bisa gunakan database tersebut walaupun masih kosong
+
+<img width="438" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/003c3171-acaa-408f-9814-79782ed84135">
