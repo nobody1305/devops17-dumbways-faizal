@@ -40,10 +40,11 @@ sehingga untuk masuk kita perlu untuk memasukkan password terlebih dahulu
 
 kemudian set mysql_secure_installation kemudian atur sedemikian sesuai dengan kebutuhan. kita bisa mengamankan database dengan
 
-1. menghilangkan anonymus user
-2. menghilangkan akses root secara remote
-3. menghilangkan test database
-4. reload privillege tabel untuk memastikan semua perubahan akan langsung dapat berjalan
+1. mengatur kembali password sesuai dengan level yang baik 
+2. menghilangkan anonymus user
+3. menghilangkan akses root secara remote
+4. menghilangkan test database
+5. reload privillege tabel untuk memastikan semua perubahan akan langsung dapat berjalan
 
 
 <img width="810" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8beb0adf-25bc-4f4a-bc5d-f04a90069a96">
