@@ -94,11 +94,13 @@ kita bisa mengecek database pada mysql sperti pada gambar dibawah, dimana pada d
 
 masuk ke wayshub-frontend/src/config/api.js disini kita bisa melihat bahwa setingan backendnya terdapat pada localhost:5000 sehingga sudah terintegrasi
 
-nanti bisa kita ganti apabila sudah ada domain sendiri
-
 <img width="882" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/675f8646-899a-488b-91cd-996e2266b0cd">
 
 <img width="550" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/6424138f-2ad4-413f-a9c9-df2a0bd21052">
+
+nanti kita bisa ganti dengan domain yang sudah dibuat pada cloudflare seperti pada gambar dibawah
+
+<img width="718" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4e7ed95a-bd97-4580-96b8-6934892e3d7f">
 
 sekarang kita coba masuk ke aplikasi wayshub sebagai client untuk menguji aplikasi
 
