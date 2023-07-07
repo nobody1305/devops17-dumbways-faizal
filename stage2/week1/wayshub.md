@@ -63,3 +63,23 @@ masuk kembali sebagai user dan kita sudah bisa membuat database melalui user bar
 kemudian kita bisa gunakan database tersebut walaupun masih kosong
 
 <img width="438" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/003c3171-acaa-408f-9814-79782ed84135">
+
+kemudian kita masuk ke folder wayshub-backend, jalankan npm install, dan jalankan dengan aplikasi pm2 dengan pm2 start 'npm start'
+
+<img width="946" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/20e339e7-465c-425b-a971-d46af09730ab">
+
+kita bisa cek pada port 5000, jika sudah muncul sperti pada gambar maka bisa dikatakan bahwa deploy backend berhasil
+
+<img width="621" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/35121825-9f8e-4d27-9b88-d17864c25530">
+
+kemudian kita integrasikan database, backend, dan frontend
+
+masuk ke bagian config pada wayshub-backend dan edit file config.json pada bagian development seperti pada gambar dibawah
+
+<img width="919" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/691e5f71-402d-4534-928c-fa82d4afffea">
+
+kemudian jalankan npm install -g sequelize-cli untuk menyesuaikan data yang ada pada backend ke database
+
+<img width="568" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/31132b48-1cb5-4625-82eb-1576b00542ff">
+
+![Uploading image.png…]()
