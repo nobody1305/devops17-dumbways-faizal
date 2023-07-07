@@ -35,3 +35,7 @@ jika kita melihat pada aplikasi kita maka domain http akan menjadi https yang aw
 <img width="894" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/fd7b8593-7dd3-4a7d-a90d-b9d5d0a6ff94">
 
 <img width="483" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5a577b04-9c49-41e5-8244-933f1a23bfa2">
+
+apabila kita belum yakin dengan konfigurasi nginx maka kita bisa saja mendapat sertifikatnya saja dengan command sudo certbot certonly --nginx
+
+apabila ingin memperbarui sertifikat sebelum expired atau ingin memperbarui otomatis gunakan command sudo certbot renew --dry-run
