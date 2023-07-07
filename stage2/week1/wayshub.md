@@ -80,6 +80,29 @@ masuk ke bagian config pada wayshub-backend dan edit file config.json pada bagia
 
 kemudian jalankan npm install -g sequelize-cli untuk menyesuaikan data yang ada pada backend ke database
 
+<img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/184c046d-efeb-4317-b311-d96c434229d4">
+
+hal itu dilakukan untuk bisa menggunakan command untuk membuat database yang kita buat secara manual sebelumnya
+
 <img width="568" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/31132b48-1cb5-4625-82eb-1576b00542ff">
 
-![Uploading image.png…]()
+kemudian jalanakan sequelize db:migrate untuk memigrasi data dari wayshub ke server tujuan
+
+<img width="810" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/cde9104e-adb5-4d69-8525-5ca990efb6e5">
+
+kita bisa mengecek database pada mysql sperti pada gambar dibawah, dimana pada database wayshub sudah terdapat data yang sesuai
+
+<img width="820" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f3204864-ca75-4bf3-9464-e703dd9ea82a">
+
+masuk ke wayshub-frontend/src/config/api.js disini kita bisa melihat bahwa setingan backendnya terdapat pada localhost:5000 sehingga sudah terintegrasi
+
+nanti bisa kita ganti apabila sudah ada domain sendiri
+
+<img width="882" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/675f8646-899a-488b-91cd-996e2266b0cd">
+
+<img width="550" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/6424138f-2ad4-413f-a9c9-df2a0bd21052">
+
+sekarang kita coba masuk ke aplikasi wayshub sebagai client untuk menguji aplikasi
+
+<img width="908" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/74d37cd7-3a40-418f-9626-b31e20ac92d3">
+
