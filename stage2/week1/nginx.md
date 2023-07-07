@@ -20,8 +20,14 @@ kemudian masuk ke server gateway dan install nginx
 
 masuk ke /etc/nginx/sites-enabled dan buat file untuk frontend.conf dan backend.conf
 
-masukkan domain yang sudah dibuat pada cloudflare
+masukkan domain yang sudah dibuat pada cloudflare dan cantumkan alamat server dari front end dan backend sesuai dengan portnya seperti pada gambar
 
-<img width="938" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/07bfe59b-d1b8-45d3-852e-fb6166e24c65">
+<img width="748" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f7efa4c9-c9f6-4a81-90a8-869663d15f0d">
 
-<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3693f9cf-44c8-4660-bf33-b32f7009c064">
+<img width="675" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a5412ae7-a9c1-421c-bee5-62849a794517">
+
+bila sudah bisa dilihat dengan domain maka set up nginx sudah berhasil 
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9620bca8-e6f7-454d-ac2e-a1f9c5961014">
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f162dd5c-15a5-4417-9052-e4bafd4489ab">
