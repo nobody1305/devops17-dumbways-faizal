@@ -16,15 +16,13 @@ masuk ke folder wayshub-frontend dan jalankan npm instal untuk memunculkan node_
 
 <img width="948" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7cb829f8-2667-4387-b88b-aa7fdc4e681d">
 
-jalankan npm run build, npm install serve -g dan jalankan dengan pm2 serve build <port> --spa
+jalankan pm2 start 'npm run start'
 
-<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e1479632-a68b-401b-8b58-46cece0ed82d">
+<img width="901" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/032afd40-ba3d-4995-9e8f-1c03d32bc8d7">
 
-aplikasi bisa dilihat pada public ip pada port 8080
+aplikasi bisa dilihat pada public ip pada port 3000
 
-<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/210ce2cb-44cd-4fa4-b3d8-1c6c3a2985e2">
-
-<img width="916" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f678ae7c-1876-47df-8adb-5257fa9bb118">
+<img width="955" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/61703604-83ce-41a9-9ad3-04868caa99df">
 
 kemdian install terlebih dahulu mysql untuk membuat database dengan sudo apt install mysql-server
 
@@ -106,3 +104,16 @@ sekarang kita coba masuk ke aplikasi wayshub sebagai client untuk menguji aplika
 
 <img width="908" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/74d37cd7-3a40-418f-9626-b31e20ac92d3">
 
+<img width="910" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b83a3d4d-dfe3-40c8-8114-c2e31cd08a3f">
+
+kemudian masuk ke channel
+
+<img width="849" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/18b0905e-0ab0-48b1-b114-d9c2445b507b">
+
+channel sudah berhasil digunakan
+
+<img width="800" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a8022547-2c27-4a08-8036-50bf49171f97">
+
+jika kita melihat kedatabase maka sudah berhasil terdata pada database
+
+<img width="956" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/c249954d-81f7-401e-8df5-adc23fa882eb">
