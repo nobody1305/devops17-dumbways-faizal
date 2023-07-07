@@ -16,9 +16,9 @@ masuk ke folder wayshub-frontend dan jalankan npm instal untuk memunculkan node_
 
 <img width="948" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7cb829f8-2667-4387-b88b-aa7fdc4e681d">
 
-jalankan npm run build dan jalankan dengan pm2 serve build
+jalankan npm run build, npm install serve -g dan jalankan dengan pm2 serve build <port> --spa
 
-<img width="717" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f8710b54-81b9-4578-974b-482beca131b4">
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e1479632-a68b-401b-8b58-46cece0ed82d">
 
 aplikasi bisa dilihat pada public ip pada port 8080
 
