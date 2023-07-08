@@ -69,3 +69,13 @@ masukkan port yang ingin digunakan dengan custom tcp baru
 jika sudah berhasil maka bisa kita lihat pada port 3000 yang kita gunakan sehingga deployment frontend sudah berhasil
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3ab10427-59f4-4cd0-bb93-34cb48f48676">
+
+kelebihan pada aws kita bisa memakai dns yang sudah disediakan oleh aws
+
+<img width="929" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8c58385f-6b29-4791-a32e-bebfe4ea18cf">
+
+buat vm ke 2 untuk backend seperti halnya dengan frontend. namun kali ini 
+
+masuk menggunakan remote ssh dengan ip yang sudah dibuat
+
+<img width="830" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3258278f-f3cb-47b1-a0e9-6c8f7303be57">
