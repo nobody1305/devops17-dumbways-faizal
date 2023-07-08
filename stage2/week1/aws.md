@@ -56,8 +56,14 @@ masuk kebagian security grup
 
 <img width="730" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/97d03e44-f23f-4fa6-94ef-d4e7d0f538c8">
 
+edit inbound rules
+
+<img width="730" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5f2a652f-26a8-4a8d-b3b5-c20e78284a60">
+
+
 
 <img width="934" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4543a158-54bc-425d-92f3-5b2b10e0c42b">
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/934d72a0-0cb2-4504-bea2-cbe780771d9e">
 
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3ab10427-59f4-4cd0-bb93-34cb48f48676">
