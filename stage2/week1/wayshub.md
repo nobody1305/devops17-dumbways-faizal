@@ -64,8 +64,6 @@ kemudian kita bisa gunakan database tersebut walaupun masih kosong
 
 kemudian kita masuk ke folder wayshub-backend, jalankan npm install, dan jalankan dengan aplikasi pm2 dengan pm2 start 'npm start'
 
-<img width="946" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/20e339e7-465c-425b-a971-d46af09730ab">
-
 kita bisa cek pada port 5000, jika sudah muncul sperti pada gambar maka bisa dikatakan bahwa deploy backend berhasil
 
 <img width="621" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/35121825-9f8e-4d27-9b88-d17864c25530">
