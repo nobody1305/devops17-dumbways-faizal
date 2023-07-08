@@ -42,6 +42,10 @@ kita mulai deploy aplikasi seperti pada idch
 
 <img width="933" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1ecc8364-2a97-4cd7-8f2b-e6c4ddba1eb9">
 
+disini ip yang digunakan berubah dikarenakan sempat dilakukan stop instance yang menyebabkan ketika launch instance public ip baru akan dibuat. untuk menambahkan ip statis 
+
+kita perlu untuk menambahkan elastic ip
+
 apabila sudah terdeploy maka kita perlu untuk menambahkan rule pada port yang kita ingin gunakan yaitu port 3000 sebagai frontend dan 5000 sebagai backend
 
 masuk ke security
