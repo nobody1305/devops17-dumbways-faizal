@@ -28,4 +28,15 @@ disini kita bisa melihat server yang sudah kita buat
 
 masuk kebagian instance dan connect lalu masukan username yang akan kalian gunakan
 
-<img width="637" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5e7a927c-bff3-40c1-945d-9028c9f24e17">
+<img width="605" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b540b6e8-b4a5-4234-8654-d89d36bb5995">
+
+jika tampilannya begini maka sudah bisa masuk ke server
+
+<img width="935" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/675af773-fea4-40ad-94b2-7447e11646f4">
+
+atau gunakan remote ssh dengan command ssh -i /path/key-pair-name.pem instance-user-name@instance-public-dns-name
+
+<img width="765" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4122c445-553a-46c7-9365-899dc4bac568">
+
+kita mulai deploy aplikasi seperti pada idch
+
