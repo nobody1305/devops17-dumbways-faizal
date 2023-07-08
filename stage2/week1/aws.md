@@ -106,3 +106,4 @@ atur reverse proxy seperti pada idch jangan lupa uuntuk mengatur api.js pada /wa
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1a7abe1a-112d-4dc7-95e7-623f023273a5">
 
+langkah tersebut dapat dilanjutkan ke ssl seperti pada deployment idch sebelumnya. namun deplyoment sampai sini sudah cukup untuk latihan
