@@ -74,8 +74,35 @@ kelebihan pada aws kita bisa memakai dns yang sudah disediakan oleh aws
 
 <img width="929" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8c58385f-6b29-4791-a32e-bebfe4ea18cf">
 
-buat vm ke 2 untuk backend seperti halnya dengan frontend. namun kali ini 
+buat vm ke 2 untuk backend seperti halnya dengan frontend. namun kali ini kita tidak perlu membuat ssh key baru cukup gunakan yang sudah dibuat sebelumnya
+
+<img width="806" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7c077208-800a-4e46-a945-ea6c4f22a999">
 
 masuk menggunakan remote ssh dengan ip yang sudah dibuat
 
 <img width="830" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3258278f-f3cb-47b1-a0e9-6c8f7303be57">
+
+deploy wayshub backend sperti pada idch beserta pembuatan database dan migrasi data table yang digunakan pada backend
+
+<img width="823" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d30d8136-983c-4817-856b-714f5a645e5f">
+
+<img width="936" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8cd8aafe-8762-4636-8b78-2199c52fa5d4">
+
+langsung lanjut ke vm 3 untuk gateway seperti halnya pada sebelumnya kita perlu mengatur elastic ip dan menggunakan ssh key sebelumnya
+
+<img width="785" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/eb076495-456c-4cee-8d4b-038ce412a81c">
+
+masuk ke server dan install nginx
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/0b0c3f8d-6b4b-40f4-82a4-573e0cb945c9">
+
+dan nginx sudah berhasil install 
+
+<img width="890" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/21fc1637-f114-48fb-896b-adec89b7b203">
+
+atur reverse proxy seperti pada idch jangan lupa uuntuk mengatur api.js pada /wayshub-frontend/src/config/api.js
+
+<img width="943" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9b00c5d0-e255-48a2-ace9-8676839076b2">
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1a7abe1a-112d-4dc7-95e7-623f023273a5">
+
