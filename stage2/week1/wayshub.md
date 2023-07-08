@@ -50,7 +50,7 @@ untuk menambahkan user pada mysql kita bisa gunakan create user 'userbaru'@'%' i
 
 <img width="582" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/52a172c8-be7c-4e6b-ba0b-c845c0c7dc79">
 
-kemudian masuk ke root dan grant all privileges on *.* to 'userbaru'@'%';
+kemudian masuk ke root dan jalankan command grant all seperti gambar
 
 <img width="956" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8dffd205-c4cb-46f3-aaee-792c45f06c3d">
 
