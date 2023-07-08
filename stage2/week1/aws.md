@@ -40,3 +40,20 @@ atau gunakan remote ssh dengan command ssh -i /path/key-pair-name.pem instance-u
 
 kita mulai deploy aplikasi seperti pada idch
 
+<img width="933" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1ecc8364-2a97-4cd7-8f2b-e6c4ddba1eb9">
+
+apabila sudah terdeploy maka kita perlu untuk menambahkan rule pada port yang kita ingin gunakan yaitu port 3000 sebagai frontend dan 5000 sebagai backend
+
+masuk ke security
+
+<img width="769" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4e575fc0-3175-4640-b2f6-7b63715e5763">
+
+masuk kebagian security grup
+
+<img width="730" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/97d03e44-f23f-4fa6-94ef-d4e7d0f538c8">
+
+
+<img width="934" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4543a158-54bc-425d-92f3-5b2b10e0c42b">
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/934d72a0-0cb2-4504-bea2-cbe780771d9e">
+
