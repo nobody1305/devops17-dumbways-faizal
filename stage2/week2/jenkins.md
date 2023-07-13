@@ -81,8 +81,13 @@ masukkan repository github yang digunakan sebagai aplikasi kita buat (frontend d
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f0c11994-960f-4ea8-b77b-5af428ad6b3d">
 
 kemudian masuk ke app server dan masuk ke folder wayshub-frontend dan buat nano jenkinsfile
+1. pull repo
+2. docker build
+3. docker compose
+4. docker push
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/037215ca-194b-476d-821d-c24ce6c7e839">
 
+<img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/30c2187c-896d-4df7-ad14-fd06cc4606ba">
 
 
