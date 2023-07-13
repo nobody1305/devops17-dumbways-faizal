@@ -38,5 +38,11 @@ jalankan docker run -d -p 3000:3000 wayshubfe
 
 <img width="946" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9180b1a0-04d1-4af9-99e8-aac1aba01a26">
 
+kemudian push dengan docker push <nama file>
+
+<img width="918" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/aa924fd9-5af4-4cc1-bcc0-cfff2c6edc09">
+
+<img width="945" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d7279fce-71e8-4a17-980a-498bb25bf666">
+
 
 
