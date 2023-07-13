@@ -90,4 +90,19 @@ kemudian masuk ke app server dan masuk ke folder wayshub-frontend dan buat nano 
 
 <img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/30c2187c-896d-4df7-ad14-fd06cc4606ba">
 
+kemudian pastikan bahwa repository yang digunakan adalah repository kalian
+
+<img width="888" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/be5bf666-1a3a-415a-890b-0455dbc8a34d">
+
+<img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/c098c8e0-cb64-44a6-8acb-c3795c2db66d">
+
+apabila terjadi error pada ssh keys maka jalankan ssh key yang baru dengan
+
+ssh-keygen -t ed25519 -C 'email kalian'
+
+kemudian push
+
+<img width="948" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1c79527b-dd7a-45ab-bce5-6f27121d6941">
+
+
 
