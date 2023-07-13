@@ -110,5 +110,8 @@ atur webhook pada pengaturan github
 
 <img width="948" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1c79527b-dd7a-45ab-bce5-6f27121d6941">
 
+kemudian atur bagian backend seperti pada frontend
+
+<img width="682" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9450c2bc-27b3-45a9-8c43-a9dd5b593370">
 
 
