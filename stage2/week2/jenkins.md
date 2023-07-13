@@ -100,7 +100,13 @@ apabila terjadi error pada ssh keys maka jalankan ssh key yang baru dengan
 
 ssh-keygen -t ed25519 -C 'email kalian'
 
+<img width="882" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4634ca0a-928e-482d-aec3-8b58142eb798">
+
 kemudian push
+
+<img width="959" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/cfd5ca88-ace8-4b77-8528-566c9f1cddcf">
+
+atur webhook pada pengaturan github
 
 <img width="948" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1c79527b-dd7a-45ab-bce5-6f27121d6941">
 
