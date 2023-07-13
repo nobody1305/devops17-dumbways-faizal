@@ -36,4 +36,7 @@ jalankan docker run -d -p 3000:3000 wayshubfe
 
 
 
+<img width="946" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9180b1a0-04d1-4af9-99e8-aac1aba01a26">
+
+
 
