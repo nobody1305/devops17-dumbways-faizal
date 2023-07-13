@@ -10,6 +10,10 @@ kemudian install docker
 
 <img width="458" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/cbbf57c0-82e8-4aba-9c1f-ced2ba528d4b">
 
+gunakan sudo usermod -aG docker (user) untuk meringkas command sudo pada docker
+ 
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a4ca079b-fe1d-4659-9335-a86aba1b2fd5">
+
 pull image mysql ke docker
 
 <img width="955" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/eaa0e93e-c884-42e3-88bb-658c187dba3b">
