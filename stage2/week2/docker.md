@@ -26,17 +26,12 @@ masuk ke folder wayshub-frontend dan buat Dockerfile menggunakan nano Dockerfile
 
 <img width="952" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e193142d-b990-4f98-b016-247669c758e7">
 
-jalankan docker build -t wayshubfe . untuk membuat image dengan format wayshubfe pada directory wayshub-frontend
-
-<img width="947" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e4c4d6a6-fba3-420c-a5de-df044e58629e">
-
-jalankan docker run -d -p 3000:3000 wayshubfe
-
-<img width="954" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4f4f1621-a15c-4cb5-94c6-e162e4d8ac50">
+jalankan docker build -t fama-frontend . untuk membuat image dengan format wayshubfe pada directory wayshub-frontend
 
 
+masuk ke docker login dan ganti nama file dengan format docker tag <nama image> <username/namafile>
 
-<img width="946" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9180b1a0-04d1-4af9-99e8-aac1aba01a26">
+<img width="956" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3297a6fe-218b-49a7-a4e8-bb04ae6d7b2c">
 
 kemudian push dengan docker push <nama file>
 
