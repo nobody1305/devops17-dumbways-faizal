@@ -48,5 +48,41 @@ masuk ke global credential dan add credential
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/c39b112e-7fc7-4e96-911a-4e022e04d69b">
 
+masukkan informasi seperti usename dari server dan masukkan juga private key sebagai kunci untuk masuk ke app server
+
+<img width="883" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/da4a3986-c668-4936-8c70-fd842a2c2b50">
+
+<img width="808" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1f02ed59-ee21-436d-a6d7-1e76cf3b1552">
+
+kita bisa menambah plugin untuk multibranch pipeline dan bisa menambah fitur seperti notifier
+
+<img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/724e2e08-c71e-424c-bd7e-d0f1be7e10f2">
+
+masuk ke create job dan buat pipeline
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/24dce5b7-ec93-4bee-a9b7-3829049f0ada">
+
+<img width="945" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/72fb3137-2d2e-472a-bca2-33846b5f5371">
+
+masuk general dan centang hook trigger github. apabila ingin menggunakan auto trigger dari script bisa centang trigger remotely
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/300d305c-f7d2-4cc7-896f-a398309cee16">
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/71fbf9ad-479f-4aaa-b528-564855ccc053">
+
+sebelum melakukan remote github kita perlu melakukan fork terhadap repository github wayshub frontend dan backend
+
+<img width="922" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4aff2929-5b0e-43ba-a818-e779ff806e22">
+
+<img width="941" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/c8849380-8ab2-4861-977f-34b7f2125b87">
+
+masukkan repository github yang digunakan sebagai aplikasi kita buat (frontend dan backend)
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f0c11994-960f-4ea8-b77b-5af428ad6b3d">
+
+kemudian masuk ke app server dan masuk ke folder wayshub-frontend dan buat nano jenkinsfile
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/037215ca-194b-476d-821d-c24ce6c7e839">
+
 
 
