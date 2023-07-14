@@ -78,7 +78,7 @@ namun kali ini setup nginx berhenti pada tahap ini untuk tidak menganggu konfigu
 
 <img width="937" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/20e93759-2cb4-43a2-8d10-fe57cbd448e6">
 
-atau buat dockefile dengan isi seperti ini dan kemudian build dan jalankan
+atau buat dockefile dengan isi seperti ini berdasarkan reverse proxy setup yang sudah dibuat dan kemudian build dan jalankan
 
 ```
 FROM nginx:latest
@@ -86,5 +86,5 @@ COPY frontend.conf /etc/nginx/conf.d/frontend.conf
 COPY backend.conf /etc/nginx/conf.d/backend.conf
 COPY jenkins.conf /etc/nginx/conf.d/jenkins.conf
 ```
-
+namun tahap tersebut belum termasuk certbot sehingga masih perlu belajar set up nginx menggunakan docker
 
