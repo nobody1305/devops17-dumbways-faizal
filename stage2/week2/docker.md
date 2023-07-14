@@ -50,5 +50,8 @@ kemudian push dengan docker push <nama file>
 
 <img width="945" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d7279fce-71e8-4a17-980a-498bb25bf666">
 
+kemudian jalankan certbot untuk mendapatkan secure link
+
+<img width="959" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f2b7830c-1b04-4d59-9b42-dccfe0ca99b5">
 
 
