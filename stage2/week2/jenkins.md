@@ -274,3 +274,7 @@ atur reverse proxy
 <img width="914" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/fb1e7273-e4d2-4d19-a447-1db6330b8daa">
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/db2fe22f-71cd-4fb7-bb74-0d4092f54237">
+
+jangan lupa perbarui link webhook pada github dengan reverse proxy yang baru
+
+<img width="747" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/094c1067-87e8-416a-8638-d4f7fb18211b">
