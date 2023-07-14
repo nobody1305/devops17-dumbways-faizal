@@ -1,4 +1,4 @@
-#docker installation using bash script
+# docker installation using bash script
 
 buat file bernama docker-install.sh (harus berformat .sh)
 
