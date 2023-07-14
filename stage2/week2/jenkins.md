@@ -10,6 +10,24 @@ jalankan jenkins on top docker pada port 8080
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/699a70ca-dbae-4986-affd-f7caf256c906">
 
+atau masuk dengan docker compose up -d dengan isi
+
+```
+  GNU nano 4.8                                             docker-compose.yml                                                        version: '3.8'
+services:
+   jenkins:
+      image: jenkins/jenkins:latest
+      container_name: jenkins
+      restart: always
+      privileged: true
+      user: root
+      ports:
+         - 8080:8080
+         - 50000:50000
+      volumes:
+         - ~/jenkins:/var/jenkins_home
+```
+
 masuk ke ip yang sudah dijalankan 
 
 <img width="953" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b96beb75-66e4-48dc-8ab5-4479cef79dbb">
