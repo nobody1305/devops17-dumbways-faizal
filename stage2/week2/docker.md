@@ -18,6 +18,14 @@ pull image mysql ke docker
 
 <img width="955" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/eaa0e93e-c884-42e3-88bb-658c187dba3b">
 
+buat database dengan compose mysql kemudian masuk ke mysql on top docker dan grant all user 
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2dd3b39a-1aeb-4972-bf5b-cb65a51a0edc">
+
+buat dockerfile untuk backend yang berisikan migrasi data backend ke mysql dan run aplikasi dari backend
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a0280c9c-bb68-4dcf-a96d-ce9cf96d3f90">
+
 pull image node 14.21.3
 
 <img width="940" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/affc9ac2-32c1-4c8a-9a49-b3d27fea2ba0">
