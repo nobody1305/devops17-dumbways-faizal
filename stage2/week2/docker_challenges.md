@@ -56,6 +56,35 @@ dari gambar dibawah dockerfile 5 lebih ringkas dan lebih efektif dibanding docke
 
 4. menggunakan .dockerignore pada app untuk menghilangkan file" yang berupa .md
 
+# menjalankan nginx on top docker
 
+pertama tama kita matikan dulu nginx pada gateway dengan sudo systemctl stop nginx
+
+kemudian install docker dan pull image nginx ke gateway
+
+<img width="618" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/04af2d07-81b3-437d-ba7f-99ced15afd03">
+
+kemudian jalankan nginx pada port 8080
+
+<img width="936" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/fbbab8bd-5fb5-4052-9c1e-d8dbdf07bde6">
+
+kemudian buat reverse proxy .conf dan copy pada folder nginx-base:/etc/nginx/conf.d/
+
+<img width="927" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f1b177f0-d369-4984-b919-e72e96a10462">
+
+kemudian jalankan reload nginx pada docker namun dikarenakan sudah terdapat nginx pada gateway maka terjadi crash sehingga kita perlu menghapus nginx pada gateway
+
+namun kali ini setup nginx berhenti pada tahap ini untuk tidak menganggu konfigurasi nginx pada server
+
+<img width="937" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/20e93759-2cb4-43a2-8d10-fe57cbd448e6">
+
+atau buat dockefile dengan isi seperti ini dan kemudian build dan jalankan
+
+```
+FROM nginx:latest
+COPY frontend.conf /etc/nginx/conf.d/frontend.conf
+COPY backend.conf /etc/nginx/conf.d/backend.conf
+COPY jenkins.conf /etc/nginx/conf.d/jenkins.conf
+```
 
 
