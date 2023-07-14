@@ -14,11 +14,15 @@ gunakan sudo usermod -aG docker (user) untuk meringkas command sudo pada docker
  
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a4ca079b-fe1d-4659-9335-a86aba1b2fd5">
 
+masuk ke folder wayshub-frontend dan buat Dockerfile menggunakan nano Dockerfile
+
+<img width="952" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e193142d-b990-4f98-b016-247669c758e7">
+
 pull image mysql ke docker
 
 <img width="955" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/eaa0e93e-c884-42e3-88bb-658c187dba3b">
 
-buat database dengan compose mysql kemudian masuk ke mysql on top docker dan grant all user 
+buat database dengan compose mysql kemudian masuk ke mysql on top docker dan grant all user dengan docker exec -it wayshub-db
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2dd3b39a-1aeb-4972-bf5b-cb65a51a0edc">
 
@@ -30,12 +34,11 @@ pull image node 14.21.3
 
 <img width="940" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/affc9ac2-32c1-4c8a-9a49-b3d27fea2ba0">
 
-masuk ke folder wayshub-frontend dan buat Dockerfile menggunakan nano Dockerfile
-
-<img width="952" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e193142d-b990-4f98-b016-247669c758e7">
-
 jalankan docker build -t fama-frontend . untuk membuat image dengan format wayshubfe pada directory wayshub-frontend
 
+atau jalankan docker-compose.yml dengan docker compose up -d dan docker compose down untuk mematikan
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7e39aba4-286c-40e7-9def-113b2173e472">
 
 masuk ke docker login dan ganti nama file dengan format docker tag <nama image> <username/namafile>
 
