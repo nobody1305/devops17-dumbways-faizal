@@ -86,6 +86,72 @@ kemudian masuk ke app server dan masuk ke folder wayshub-frontend dan buat nano 
 3. docker compose
 4. docker push
 
+`Jenkinsfile Frontend`
+```
+def branch = "main"
+def remote = "origin"
+def directory = "~/wayshub-frontend"
+def server = "fama@103.191.92.211"
+def cred = "wayshub1"
+def image = "nobody1305/fama-frontend:latest"
+
+pipeline{
+    agent any
+    stages{
+        stage('repo pull'){
+            steps{
+                sshagent([cred]){
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+		    docker compose down
+                    cd ${directory}
+                    git pull ${remote} ${branch}
+                    exit
+                    EOF"""
+                    }
+                }
+            }
+
+	 stage('docker build'){
+            steps{
+                sshagent([cred]){
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    cd ${directory}
+                    docker build -t fama-frontend .
+                    exit
+                    EOF"""
+                    }
+                }
+            }
+
+        stage('docker compose'){
+            steps{
+                sshagent([cred]){
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    cd ${directory}
+                    docker compose up -d
+                    exit
+                    EOF"""
+                    }
+                }
+            }
+	
+	 stage('docker push'){
+            steps{
+                sshagent([cred]){
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    cd ${directory}
+		    docker tag fama-frontend:latest ${image}
+                    docker push ${image}
+                    exit
+                    EOF"""
+                    }
+                }
+            }
+        }
+    }
+```
+
+
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/037215ca-194b-476d-821d-c24ce6c7e839">
 
 <img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/30c2187c-896d-4df7-ad14-fd06cc4606ba">
