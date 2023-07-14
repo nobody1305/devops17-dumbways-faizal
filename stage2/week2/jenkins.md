@@ -151,11 +151,6 @@ pipeline{
     }
 ```
 
-
-<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/037215ca-194b-476d-821d-c24ce6c7e839">
-
-<img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/30c2187c-896d-4df7-ad14-fd06cc4606ba">
-
 kemudian pastikan bahwa repository yang digunakan adalah repository kalian
 
 <img width="888" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/be5bf666-1a3a-415a-890b-0455dbc8a34d">
