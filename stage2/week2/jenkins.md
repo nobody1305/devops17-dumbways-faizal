@@ -264,3 +264,9 @@ jika sudah seperti ini maka build sudah berhasil dilakukan
 <img width="956" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/93482d1c-6d89-4403-a87a-850dafecc4bd">
 
 <img width="708" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7b50bce1-895a-4575-9250-fe6b26cfc092">
+
+atur reverse proxy
+
+<img width="711" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/bd035d53-56f8-40c4-ba70-0cd3b0b854ba">
+
+
