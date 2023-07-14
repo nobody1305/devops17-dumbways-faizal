@@ -265,6 +265,10 @@ jika sudah seperti ini maka build sudah berhasil dilakukan
 
 <img width="708" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7b50bce1-895a-4575-9250-fe6b26cfc092">
 
+begitu juga docker push jg sudah bisa dijalankan
+
+<img width="859" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/06d54dc7-badb-486c-a558-d6bb76c702a6">
+
 atur reverse proxy
 
 <img width="711" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/bd035d53-56f8-40c4-ba70-0cd3b0b854ba">
