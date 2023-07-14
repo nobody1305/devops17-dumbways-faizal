@@ -114,4 +114,7 @@ kemudian atur bagian backend seperti pada frontend
 
 <img width="682" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9450c2bc-27b3-45a9-8c43-a9dd5b593370">
 
+jika sudah seperti ini maka build sudah berhasil dilakukan
+
+<img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/ed6514a9-a8c7-4790-8b39-e8d5a8b940f5">
 
