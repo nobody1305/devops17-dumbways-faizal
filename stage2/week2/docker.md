@@ -16,7 +16,16 @@ gunakan sudo usermod -aG docker (user) untuk meringkas command sudo pada docker
 
 masuk ke folder wayshub-frontend dan buat Dockerfile menggunakan nano Dockerfile
 
-<img width="952" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e193142d-b990-4f98-b016-247669c758e7">
+```
+FROM node:14.21.3-alpine
+WORKDIR /app
+COPY . .
+RUN npm install
+EXPOSE 3000
+CMD ["npm", "start"]
+```
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/5d4c7d60-bce0-435e-b5f8-971daa7daa1c">
 
 pull image mysql ke docker
 
@@ -24,9 +33,44 @@ pull image mysql ke docker
 
 buat database dengan compose mysql kemudian masuk ke mysql on top docker dan grant all user dengan docker exec -it wayshub-db
 
+```
+version: "3.8"
+services:
+    db:
+      image: mysql
+      container_name: wayshub-db
+      expose:
+        - 3306
+      ports:
+        - 3306:3306
+      volumes:
+        - ~/mysqldata:/var/lib/mysql
+      environment:
+        - MYSQL_ROOT_PASSWORD=fama1234
+        - MYSQL_USER=fama
+        - MYSQL_PASSWORD=fama1234
+        - MYSQL_DATABASE=wayshub
+```
+
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2dd3b39a-1aeb-4972-bf5b-cb65a51a0edc">
 
 buat dockerfile untuk backend yang berisikan migrasi data backend ke mysql dan run aplikasi dari backend
+
+```
+FROM node:14.21.3-alpine
+WORKDIR /app
+
+COPY . .
+RUN npm install
+RUN npm install sequelize-cli -g
+RUN sequelize db:create
+
+COPY migrations /migrations
+RUN sequelize db:migrate
+
+EXPOSE 5000
+CMD [ "npm", "start" ]
+```
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a0280c9c-bb68-4dcf-a96d-ce9cf96d3f90">
 
@@ -37,6 +81,37 @@ pull image node 14.21.3
 jalankan docker build -t fama-frontend . untuk membuat image dengan format wayshubfe pada directory wayshub-frontend
 
 atau jalankan docker-compose.yml dengan docker compose up -d dan docker compose down untuk mematikan
+
+```
+version: "3.8"
+services:
+    db:
+      image: mysql
+      container_name: wayshub-db
+      ports:
+        - 3306:3306
+      volumes:
+        - ~/mysqldata:/var/lib/mysql
+      environment:
+        - MYSQL_ROOT_PASSWORD=fama1234
+        - MYSQL_USER=fama
+        - MYSQL_PASSWORD=fama1234
+        - MYSQL_DATABASE=wayshub
+    backend:
+      depends_on:
+        - db
+      build: ./wayshub-backend
+      container_name: wayshub-be
+      stdin_open: true
+      ports:
+        - 5000:5000
+    frontend:
+      build: ./wayshub-frontend
+      container_name: wayshub-fe
+      stdin_open: true
+      ports:
+        - 3000:3000 
+```
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7e39aba4-286c-40e7-9def-113b2173e472">
 
