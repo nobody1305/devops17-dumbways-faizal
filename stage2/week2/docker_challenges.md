@@ -36,6 +36,26 @@ wget -O - https://gist.githubusercontent.com/fredhsu/f3d927d765727181767b3b13a3a
 
 # memperkecil image docker
 
-## 1. menggunakan base image yang kecil seperti alpine
+1. menggunakan base image yang kecil seperti alpine
 
-## 2. melakukan multistage build
+<img width="591" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/0451f985-d8b0-451e-bd6f-0cef8e0decf3">
+
+2. menginstall meringkas layer pada docker file seperti command dibawah
+
+<img width="511" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a97249e6-6465-47e0-91ad-e36191e7aa93">
+
+menjadi
+
+<img width="519" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/21bba5a8-7cec-41fa-b32e-299b1259f1a1">
+
+3. memahami cara kerja cache dimana 
+
+dari gambar dibawah dockerfile 5 lebih ringkas dan lebih efektif dibanding docker6 pada penggunaan copy
+
+<img width="532" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/140b5c04-72e9-4ab7-9561-e6b08e37c20b">
+
+4. menggunakan .dockerignore pada app untuk menghilangkan file" yang berupa .md
+
+
+
+
