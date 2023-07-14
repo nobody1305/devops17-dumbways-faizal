@@ -1,9 +1,10 @@
+1. #docker installation using bash script#
+
 buat file bernama docker-install.sh (harus berformat .sh)
 
 kemudian pastekan dengan script dibawah
 
 ```
-
 #!/bin/bash
 sudo apt-get install -y \
     apt-transport-https \
@@ -23,13 +24,13 @@ sudo docker run hello-world
 sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo systemctl enable docker
-
 ```
 
 kemdian jalankan dengan command 
 
 ```
-
 wget -O - https://gist.githubusercontent.com/fredhsu/f3d927d765727181767b3b13a3a23704/raw/3c2c55f185e23268f7fce399539cb6f1f3c45146/ubuntudocker.sh | bash
-
 ```
+
+<img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8b1eb1d3-a594-4e7e-a843-87f3d64e2b4d">
+
