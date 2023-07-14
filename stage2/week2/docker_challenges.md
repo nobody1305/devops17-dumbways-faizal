@@ -34,3 +34,8 @@ wget -O - https://gist.githubusercontent.com/fredhsu/f3d927d765727181767b3b13a3a
 
 <img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8b1eb1d3-a594-4e7e-a843-87f3d64e2b4d">
 
+# memperkecil image docker
+
+## 1. menggunakan base image yang kecil seperti alpine
+
+## 2. melakukan multistage build
