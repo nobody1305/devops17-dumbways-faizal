@@ -110,7 +110,7 @@ atur webhook pada pengaturan github
 
 <img width="948" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1c79527b-dd7a-45ab-bce5-6f27121d6941">
 
-kemudian atur bagian backend seperti pada frontend
+kemudian atur bagian backend seperti pada frontend namun tambahkan command docker compose -f compose-mysql.yml up -d untuk menjalankan mysql 
 
 <img width="682" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/9450c2bc-27b3-45a9-8c43-a9dd5b593370">
 
@@ -118,3 +118,6 @@ jika sudah seperti ini maka build sudah berhasil dilakukan
 
 <img width="957" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/ed6514a9-a8c7-4790-8b39-e8d5a8b940f5">
 
+<img width="956" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/93482d1c-6d89-4403-a87a-850dafecc4bd">
+
+<img width="708" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/7b50bce1-895a-4575-9250-fe6b26cfc092">
