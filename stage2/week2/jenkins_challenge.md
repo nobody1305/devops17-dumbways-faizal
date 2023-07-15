@@ -33,4 +33,17 @@ coba kita build dan jenkins berhasil mengirim pesan ke discord kita
 
 <img width="692" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4e1e4b01-5685-43e4-9c93-f3732394fb40">
 
+# private repository
+
+buat user jenkins
+
+```
+sudo adduser jenkins --shell /bin/bash
+```
+masuk sebagai user
+```
+su jenkins
+```
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/c231cf70-8882-4b82-9214-22cc69078a31">
 
