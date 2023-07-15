@@ -1,3 +1,5 @@
+# discord notifier
+
 buat webhook dari akun discord dan copy link addresnya
 
 <img width="844" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f36c4b39-5550-40bd-a8fb-08a452214607">
@@ -17,16 +19,18 @@ copy script tersebut dan paste di pipeline namun perlu pengaturan tambahan untuk
 sederhana untuk latihan
 
 ```
-discordSend description: 'wayshub project', footer: 'dumbways jaya', image: '', link: 'env.BUILD_URL.', result: 'build berhasil', scmWebUrl: '', thumbnail: '', title: 'wayshub', webhookURL: 'https://discordapp.com/api/webhooks/1129367074859397140/B2AL8n5a9Teg2FKSa82tuemNOu3SBe4XenTefkM6Q59vXpniLObl-ev0CIa9DdSWAGcQ'
+discordSend description: 'build berhasil', footer: 'dumbways jaya', image: '', link: env.BUILD_URL, result: currentBuild.currentResult, scmWebUrl: '', thumbnail: '', title: 'wayshub', webhookURL: 'https://discordapp.com/api/webhooks/1129367074859397140/B2AL8n5a9Teg2FKSa82tuemNOu3SBe4XenTefkM6Q59vXpniLObl-ev0CIa9DdSWAGcQ'
+
 ```
 
-<img width="685" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d1ece50a-bba4-48bb-8d13-6b2a550e76fd">
+<img width="679" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/cc6b495f-a542-48ea-b2ce-52eea920b680">
 
 kemudian pilih project atau job yang ingin digunakan
 
-<img width="689" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8030a1c9-9cf3-4d6b-9b68-8f047f2159aa">
+<img width="704" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b9dc3b58-9986-448d-96e3-8f9f4d1870fe">
 
-coba kita build
+coba kita build dan jenkins berhasil mengirim pesan ke discord kita
 
+<img width="692" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4e1e4b01-5685-43e4-9c93-f3732394fb40">
 
 
