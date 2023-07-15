@@ -44,6 +44,41 @@ masuk sebagai user
 ```
 su jenkins
 ```
+buat jenkins slave directory
+```
+mkdir /home/jenkins/jenkins_slave
+```
+<img width="710" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e29113cf-09d9-437a-aec8-92e2c376d1fc">
 
-<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/c231cf70-8882-4b82-9214-22cc69078a31">
+masuk ke manage jenkins dan setup agent
 
+<img width="817" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/61d080a2-0f8a-4818-be19-ac698fadba3f">
+
+atur seperti di gambar
+
+<img width="952" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4ca37efc-c470-46e6-bd5a-4162c8551459">
+
+<img width="896" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3bd6d4d7-b805-4c68-b1f8-af23cf33ff0f">
+
+masuk ke folder .ssh kemudian generate ssh-keygen dengan command
+
+```
+ssh-keygen -t rsa -C "The access key for Jenkins slaves"
+```
+kemudian copy id_rsa.pub ke authorized_keys
+```
+ cat id_rsa.pub >> ~/.ssh/authorized_keys
+```
+<img width="696" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/63241613-433a-4a30-91dc-08f093d8b0ba">
+
+kemudian copy private key
+
+<img width="516" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/3223a9aa-ff9d-4982-82b3-c94ae193c53d">
+
+buat credential baru dengan private key
+
+<img width="913" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/28630015-32d6-4caa-9660-7855e7a70f9e">
+
+gunakan credential tersebut untuk membuat pipeline
+
+note:jenkins harus terinstall pada server bukan pada docker
