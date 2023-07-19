@@ -32,28 +32,27 @@ terraform {
 }
 
 provider "idcloudhost" {
-    auth_token = "" # API Token from idcloudhost.com
-    region = "jkt01"
+  auth_token = "" # API Token from idcloudhost.com
+  region = "jkt01"
 }
 
 resource "idcloudhost_vm" "faizal-appserver" {
-    name = "faizal-appserver"
-    os_name = "ubuntu"
-    os_version= "20.04"
-    disks = 20
-    vcpu = 1
-    memory = 1024
-    username = "nobody"
-    initial_password = "" # Combination of Uppercase, Lowercase & Numbers
-    billing_account_id =  # Billing ID from idcloudhost.com
-    public_key = "" # SSH public key
-    backup = false
+  name = "faizal-appserver"
+  os_name = "ubuntu"
+  os_version= "20.04"
+  disks = 20
+  vcpu = 2
+  memory = 1024
+  username = "nobody"
+  initial_password = "" # Combination of Uppercase, Lowercase & Numbers
+  billing_account_id = "" # Billing ID from idcloudhost.com
+  public_key = "" # SSH public key
 }
 
 resource "idcloudhost_floating_ip" "faizal-appserver" {
-    name = "faizal-appserver"
-    billing_account_id = # Billing ID from idcloudhost.com
-    assigned_to = idcloudhost_vm.faizal-appserver.id
+  name = "faizal-appserver"
+  billing_account_id = "" # Billing ID from idcloudhost.com
+  assigned_to = idcloudhost_vm.faizal-appserver.id
 }
 ```
 jalankan terraform init untuk inisiasi dan terraform validate untuk memvalidasi bahwa kode sudah benar
@@ -82,28 +81,62 @@ terraform {
 }
 
 provider "idcloudhost" {
-    auth_token = "" # API Token from idcloudhost.com
-    region = "jkt01"
+  auth_token = "" # API Token from idcloudhost.com
+  region = "jkt01"
 }
 
 resource "idcloudhost_vm" "faizal-gateway" {
-    name = "faizal-gateway"
-    os_name = "ubuntu"
-    os_version= "20.04"
-    disks = 20
-    vcpu = 1
-    memory = 1024
-    username = "nobody"
-    initial_password = "" # Combination of Uppercase, Lowercase & Numbers
-    billing_account_id =  # Billing ID from idcloudhost.com
-    public_key = "" # SSH public key
-    backup = false
+  name = "faizal-gateway"
+  os_name = "ubuntu"
+  os_version= "20.04"
+  disks = 20
+  vcpu = 2
+  memory = 1024
+  username = "nobody"
+  initial_password = "" # Combination of Uppercase, Lowercase & Numbers
+  billing_account_id = "" # Billing ID from idcloudhost.com
+  public_key = "" # SSH public key
 }
 
 resource "idcloudhost_floating_ip" "faizal-gateway" {
-    name = "faizal-gateway"
-    billing_account_id = # Billing ID from idcloudhost.com
-    assigned_to = idcloudhost_vm.faizal-gateway.id
+  name = "faizal-gateway"
+  billing_account_id = "" # Billing ID from idcloudhost.com
+  assigned_to = idcloudhost_vm.faizal-gateway.id
+}
+```
+script monitoring
+```
+terraform {
+  required_providers {
+    idcloudhost = {
+      source = "bapung/idcloudhost"
+      version = "0.1.3"
+    }
+  }
+}
+
+provider "idcloudhost" {
+  auth_token = "" # API Token from idcloudhost.com
+  region = "jkt01"
+}
+
+resource "idcloudhost_vm" "faizal-monitoring" {
+  name = "faizal-monitoring"
+  os_name = "ubuntu"
+  os_version= "20.04"
+  disks = 20
+  vcpu = 2
+  memory = 2048
+  username = "nobody"
+  initial_password = "" # Combination of Uppercase, Lowercase & Numbers
+  billing_account_id = "" # Billing ID from idcloudhost.com
+  public_key = "" # SSH public key
+}
+
+resource "idcloudhost_floating_ip" "faizal-monitoring" {
+  name = "faizal-monitoring"
+  billing_account_id = "" # Billing ID from idcloudhost.com
+  assigned_to = idcloudhost_vm.faizal-monitoring.id
 }
 ```
 
