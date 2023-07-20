@@ -23,3 +23,17 @@ sudo cp .local/bin/ansible /usr/local/bin
 ```
 atau jika tidak mau ribet gunakan saja sudo apt install ansible
 
+kemudian buat file ansible.cfg
+
+dan masukkan konfigurasi untuk masuk ke server tujuan
+
+```
+[defaults]
+inventory = Inventory
+private_key_file = /home/ubuntu/.ssh/id_rsa
+host_key_checking = false
+interpreter_python = auto_silent 
+```
+
+
+
