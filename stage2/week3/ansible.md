@@ -172,3 +172,8 @@ docker
 <img width="944" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/132ba98f-d76e-47a9-8c8f-263ebc99c674">
 
 
+
+<img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e906cc55-2648-45fe-8145-933e27fed8e6">
+
+<img width="908" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/140938da-0121-4c0c-8ce8-3b0cb18978f5">
+
