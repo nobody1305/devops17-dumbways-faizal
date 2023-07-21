@@ -171,9 +171,80 @@ docker
 
 <img width="944" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/132ba98f-d76e-47a9-8c8f-263ebc99c674">
 
+jalankan wayshub.yml menggunakan docker compose
+```
+- become: true
+  gather_facts: false
+  hosts: appserver
+  tasks:
+    - name: "Ensure repo is up-to-date"
+      git:
+        repo: https://github.com/dumbwaysdev/wayshub-frontend
+        dest: /home/nobody1305/wayshub-frontend
 
+    - name: "making dockerfile"
+      copy:
+        dest: "/home/nobody1305/wayshub-frontend/Dockerfile"
+        content: |
+          FROM node:14.21.3-alpine
+          WORKDIR /app
+          COPY . .
+          RUN npm install
+          EXPOSE 3000
+          CMD ["npm", "start"]
+    - name: "making docker compose"
+      copy:
+        dest: "/home/nobody1305/docker-compose.yml"
+        content: |
+          version: "3.8"
+          services:
+            frontend:
+              build: ./wayshub-frontend
+              container_name: wayshub-fe
+              stdin_open: true
+              ports:
+                - 3000:3000
+    - name: "Create and start services"
+      ansible.builtin.shell:
+        cmd: docker compose up -d
+```
+<img width="953" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/4dc5369e-396e-48e0-aa52-3ece710b9472">
 
 <img width="958" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e906cc55-2648-45fe-8145-933e27fed8e6">
+
+setup nginx
+```
+- become: true
+  gather_facts: false
+  hosts: gateway
+  tasks:
+    - name: "install nginx"
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+    - name: "start nginx"
+      service:
+        name: nginx
+        state: started
+    - name: "Creating a file with content"
+      copy:
+        dest: "/etc/nginx/sites-enabled/frontend.conf"
+        content: |
+          server {
+              server_name faizal.studentdumbways.my.id;
+
+              location / {
+                       proxy_pass http://103.183.75.227:3000;
+              }
+          }
+    - name: "reload nginx"
+      service:
+        name: nginx
+        state: reloaded
+```
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/030edeca-1a69-4b51-a713-a19c3c80d0c4">
 
 <img width="908" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/140938da-0121-4c0c-8ce8-3b0cb18978f5">
 
