@@ -57,7 +57,7 @@ kemudian kita akan membuat teks yml ansible untuk menjalankan instalasi aplikasi
 
 buat user baru 
 ```
-- hosts: monitoring
+- hosts: all
   become: true
   vars:
     - username: faizal
