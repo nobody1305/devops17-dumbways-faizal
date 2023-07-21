@@ -246,5 +246,6 @@ setup nginx
 
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/030edeca-1a69-4b51-a713-a19c3c80d0c4">
 
-<img width="908" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/140938da-0121-4c0c-8ce8-3b0cb18978f5">
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/dd08f3b3-f647-4cd7-8fc9-0764fc0e8ac4">
+
 
