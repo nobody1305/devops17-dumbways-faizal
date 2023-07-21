@@ -64,6 +64,12 @@ docker
     - name: "Updating apt module"
       apt:
         update_cache: true
+    - name: "change apt source.list"
+      replace:
+        path: /etc/apt/sources.list
+        regexp: "http://mirrors.idcloudhost.com/ubuntu"
+        replace: "http://archive.ubuntu.com/ubuntu"
+        backup: yes
     - name: "Install ca-cert, curl, gnupg"
       apt:
         name:
@@ -87,4 +93,5 @@ docker
           - docker-compose-plugin
 ```
 
+<img width="944" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/132ba98f-d76e-47a9-8c8f-263ebc99c674">
 
