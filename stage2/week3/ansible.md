@@ -57,8 +57,10 @@ kemudian kita akan membuat teks yml ansible untuk menjalankan instalasi aplikasi
 
 docker
 ```
+- become: true
+  gather_facts: false
   hosts: appserver
-  task:
+  tasks:
     - name: "Updating apt module"
       apt:
         update_cache: true
@@ -69,10 +71,10 @@ docker
           - curl
           - gnupg
     - name: "Install GPG Key"
-      apt-key:
+      apt_key:
         url: "https://download.docker.com/linux/ubuntu/gpg"
     - name: "install docker repository"
-      apt-repository:
+      apt_repository:
         repo: "deb https://download.docker.com/linux/ubuntu focal stable"
     - name: "install docker enginge"
       apt:
