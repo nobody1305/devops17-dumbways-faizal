@@ -122,6 +122,8 @@ docker
 - become: true
   gather_facts: false
   hosts: appserver
+  vars:
+    - username: faizal
   tasks:
     - name: "Updating apt module"
       apt:
@@ -153,7 +155,20 @@ docker
           - containerd.io
           - docker-buildx-plugin
           - docker-compose-plugin
+    - name: "Install python dependencies"
+      apt:
+        name: python3-pip
+        state: latest
+        update_cache: true
+      become: true
+    - name: "install docker sdk for pyhton"
+      pip:
+        name: docker
+    - name: "docker grup add user"
+      shell: sudo usermod -aG docker {{ username }}
 ```
+<img width="949" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/2477885e-ab42-47b3-acdd-9c452a404ff5">
 
 <img width="944" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/132ba98f-d76e-47a9-8c8f-263ebc99c674">
+
 
