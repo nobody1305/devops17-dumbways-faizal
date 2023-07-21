@@ -55,6 +55,68 @@ ansible all -m ping
 
 kemudian kita akan membuat teks yml ansible untuk menjalankan instalasi aplikasi dan lain lain
 
+buat user baru 
+```
+- hosts: monitoring
+  become: true
+  vars:
+    - username: faizal
+    - password: $5$bUv1FDql/MPiixOB$w5KyJR9LkaC27nrHsLIudJstusWhAKQasTRHgbtq5/3
+
+  tasks:
+    - name: "Setup passwordless sudo"
+      lineinfile:
+        path: /etc/sudoers
+        state: present
+        regexp: '^%sudo'
+        line: '%sudo ALL=(ALL) NOPASSWD: ALL'
+        validate: '/usr/sbin/visudo -cf %s'
+
+    - name: "Create a new regular user with ansible.builtin"
+      ansible.builtin.user:
+        groups: sudo
+        name: "{{username}}"
+        password: "{{password}}"
+        state: present
+        append: yes
+        home: /home/faizal
+
+    - name: "Set authorized key for remote user"
+      ansible.posix.authorized_key:
+        user: "{{ username }}"
+        state: present
+        key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
+
+    - name: "Disable password authentication for root"
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        state: present
+        regexp: '^#?PermitRootLogin'
+        line: 'PermitRootLogin prohibit-password'
+
+    - name: "Update apt and install required system packages"
+      apt:
+        pkg:
+          - curl
+          - vim
+          - git
+          - ufw
+        state: latest
+        update_cache: true
+
+    - name: "UFW - Allow SSH connections"
+      community.general.ufw:
+        rule: allow
+        name: OpenSSH
+
+    - name: "UFW - Enable and deny by default"
+      community.general.ufw:
+        state: enabled
+        default: deny
+```
+<img width="683" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d427934f-a31d-452b-9aef-809a09490635">
+
+
 docker
 ```
 - become: true
