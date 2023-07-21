@@ -30,10 +30,59 @@ dan masukkan konfigurasi untuk masuk ke server tujuan
 ```
 [defaults]
 inventory = Inventory
-private_key_file = /home/ubuntu/.ssh/id_rsa
+private_key_file = /home/nobody1305/.ssh/id_rsa
 host_key_checking = false
 interpreter_python = auto_silent 
 ```
+kemdian buat file inventory untuk memasukkan ip tujuan
+```
+[appserver]
+103.183.75.227
 
+[gateway]
+103.171.85.225
+
+[monitoring]
+103.139.193.44
+
+ansible_user="nobody1305"
+```
+kemudian cek dengan menggunakan ansible all -m ping untuk mengetahui apakah ansible sudah terhubung ke server tujuan
+```
+ansible all -m ping
+```
+<img width="650" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/27a64b6c-2fad-4380-808c-6f54ef156e8d">
+
+kemudian kita akan membuat teks yml ansible untuk menjalankan instalasi aplikasi dan lain lain
+
+docker
+```
+  hosts: appserver
+  task:
+    - name: "Updating apt module"
+      apt:
+        update_cache: true
+    - name: "Install ca-cert, curl, gnupg"
+      apt:
+        name:
+          - ca-certificates
+          - curl
+          - gnupg
+    - name: "Install GPG Key"
+      apt-key:
+        url: "https://download.docker.com/linux/ubuntu/gpg"
+    - name: "install docker repository"
+      apt-repository:
+        repo: "deb https://download.docker.com/linux/ubuntu focal stable"
+    - name: "install docker enginge"
+      apt:
+        update_cache: true
+        name:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+          - docker-buildx-plugin
+          - docker-compose-plugin
+```
 
 
