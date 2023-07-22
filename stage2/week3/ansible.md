@@ -121,7 +121,7 @@ docker
 ```
 - become: true
   gather_facts: false
-  hosts: appserver
+  hosts: appserver, monitoring
   vars:
     - username: faizal
   tasks:
