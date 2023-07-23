@@ -1,3 +1,25 @@
+# create vm aws using terraform
+```
+provider "aws" {
+  region = "us-west-2"  # Ganti dengan region yang diinginkan
+  access_key = "YOUR_ACCESS_KEY"
+  secret_key = "YOUR_SECRET_KEY"
+}
+
+resource "aws_instance" "nama vm" {
+  ami           = "ami-0c55b159cbfafe1f0"  # Ubuntu 20.04 AMI ID, ganti dengan AMI yang diinginkan
+  count         = "1"                     # jumlah instance yang ingin dibuat
+  subnet_id     = "subnet-07ebbe60"       # ganti dengan subnet yang diinginkan
+  instance_type = "t2.micro"              # Tipe instance, ganti dengan tipe yang diinginkan
+  key_name      = "your_key_pair_name"    # Nama key pair yang telah Anda buat sebelumnya
+  monitoring    = true                    
+  vpc_security_group_ids = ["sg-12345678"]
+
+  tags = {
+    Name = "ExampleInstance"
+  }
+}
+```
 # event driven ansible
 
 1. Webhooks: kita dapat mengintegrasikan Ansible dengan layanan pihak ketiga, seperti GitHub, GitLab, atau Jenkins, dengan menggunakan webhook. 
