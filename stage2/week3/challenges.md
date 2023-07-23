@@ -1,3 +1,9 @@
+# terragrunt
+
+install terragrunt on local server
+
+
+
 # create vm aws using terraform
 ```
 provider "aws" {
