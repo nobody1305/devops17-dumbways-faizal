@@ -102,4 +102,30 @@ buat query untuk menghitung penggunaan cpu dan ram untuk appserver
 ```
 <img width="947" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e21d6e0c-f88f-400d-b3ac-69e0dc6f8311">
 
+kemudian network pada gateway
 
+receive
+```
+irate(node_network_receive_bytes_total{instance="103.31.38.94:9100",device="eth0"}[1m])*8
+```
+transmitt
+```
+irate(node_network_transmit_bytes_total{instance="103.31.38.94:9100",device="eth0"}[1m])*8
+```
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/b8737d71-2ba3-438c-88ea-00bea1debffa">
+
+hasilnya bisa kita simpan menjadi sederhana
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/61a37ef2-6c3d-4507-afdd-8673a22ae040">
+
+kemudian masuk kebagian alerting dan buat alert untuk cpu dan ram
+
+<img width="711" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/50ea547f-5be6-47c9-b670-ed194bd506e4">
+
+<img width="735" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e8869b84-6c4a-4905-ad33-4b302f1084b7">
+
+kemudian masukkan juga contact poin untuk notifier dari sistem
+
+<img width="789" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/017d8047-3609-46da-8842-7bde5d828e3e">
+
+<img width="865" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d4235594-d95a-4ffb-b40e-55cdf5f06eb4">
