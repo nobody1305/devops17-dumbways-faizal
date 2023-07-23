@@ -81,3 +81,25 @@ kemudian jalankan script untuk menjalankan prometheus dan grafana dengan memasuk
 <img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d0d7b3be-49ff-4004-90aa-c6e687613805">
 
 <img width="959" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/f690f835-e7e1-4214-a0e9-daa27c064392">
+
+untuk masuk gunakan user: admin password: admin, kemudian buat password baru 
+
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/8914e2da-4dc5-473c-af72-b950d78ad5f2">
+
+masuk ke data source, prometheus dan masukkan ip dari server prometheus, versi prometheus dan bentuk alerting yang berupa build atau code sesuai dengan keinginan
+
+<img width="761" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/a49dc070-f5fe-4fff-a184-23146666b2e3">
+
+buat query untuk menghitung penggunaan cpu dan ram untuk appserver
+
+```
+100 - (avg by(instance) (irate(node_cpu_seconds_total{mode="idle", instance="103.183.75.227:9100"}[5m])) * 100 )
+```
+<img width="960" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/1554ae37-d746-44ab-b045-e4d5bf63e64e">
+
+```
+100 * (1 - ((avg_over_time(node_memory_MemFree_bytes{instance="103.183.75.227:9100"}[5m]) + avg_over_time(node_memory_Cached_bytes{instance="103.183.75.227:9100"}[5m]) + avg_over_time(node_memory_Buffers_bytes{instance="103.183.75.227:9100"}[5m])) / avg_over_time(node_memory_MemTotal_bytes{instance="103.183.75.227:9100"}[5m])))
+```
+<img width="947" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e21d6e0c-f88f-400d-b3ac-69e0dc6f8311">
+
+
