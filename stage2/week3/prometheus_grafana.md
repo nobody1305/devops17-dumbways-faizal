@@ -23,7 +23,58 @@ kemudian install node exporter pada appserver dan gateway supaya nanti prometheu
 kemudian jalankan script untuk menjalankan prometheus dan grafana dengan memasukkan konfigurasi prometheus yml ke server yang sudah diinstall node exporter
 
 ```
+- become: true
+  gather_facts: true
+  hosts: monitoring
+  tasks:
 
+    - name: "create prometheus volume"
+      ansible.builtin.file:
+        path: /etc/prometheus
+        state: directory
+
+    - name: "creating prometheus.yml"
+      copy:
+        dest: "/etc/prometheus/prometheus.yaml"
+        content: |
+          global:
+           scrape_interval: 10s
+          scrape_configs:
+           - job_name: 'prometheus_metrics'
+             scrape_interval: 5s
+             static_configs:
+               - targets: ['103.139.193.44:9090']
+           - job_name: 'node_exporter_metrics'
+             scrape_interval: 5s
+             static_configs:
+               - targets: ['103.183.75.227:9100','103.31.38.94:9100']
+
+    - name: "create volume grafana"
+      ansible.builtin.file:
+        path: /grafana
+        state: directory
+
+    - name: "pull prometheus"
+      community.docker.docker_container:
+        name: prometheus
+        image: prom/prometheus
+        ports:
+          -  9090:9090
+        volumes:
+          - /etc/prometheus/prometheus.yaml:/etc/prometheus/prometheus.yaml
+        restart_policy: unless-stopped
+        command:
+          - --config.file=/etc/prometheus/prometheus.yaml
+    - name: "pull grafana"
+      community.docker.docker_container:
+        name: grafana
+        image: grafana/grafana
+        ports:
+          - 3000:3000
+        volumes:
+          - ~/grafana:/var/lib/grafana
+        user: root
+        restart_policy: unless-stopped
 ```
 <img width="954" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/e6cfce91-dc10-480d-80b2-a02b9eb65b1b">
 
