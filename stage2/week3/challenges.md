@@ -6,6 +6,7 @@
 4. Security Automation (otomatisasi keamanan): Ansible dapat merespons peristiwa keamanan, seperti deteksi serangan atau aktivitas mencurigakan, dan melakukan tindakan mitigasi secara otomatis untuk mengurangi risiko keamanan.
 5. Continuous Deployment (penyebaran berkelanjutan): Ansible dapat dipicu oleh peristiwa pembaruan kode dan melakukan proses deploy aplikasi ke lingkungan produksi secara otomatis setelah pembaruan kode selesai diuji dan divalidasi.
 6. Monitoring and Reporting (pemantauan dan pelaporan): Ansible dapat mengumpulkan informasi dan data dari sistem atau aplikasi yang sedang dielola, kemudian mengirimkan laporan atau notifikasi berdasarkan kejadian tertentu, seperti pemberitahuan ketika kapasitas penyimpanan hampir penuh
+
 contoh
 
 1. Kafka for event streams
