@@ -109,9 +109,9 @@ kemudian masuk ke app server dan masuk ke folder wayshub-frontend dan buat nano 
 def branch = "main"
 def remote = "origin"
 def directory = "~/wayshub-frontend"
-def server = "fama@103.191.92.211"
+def server = "faizal@103.191.92.211"
 def cred = "wayshub1"
-def image = "nobody1305/fama-frontend:latest"
+def image = "nobody1305/faizal-frontend:latest"
 
 pipeline{
     agent any
@@ -134,7 +134,7 @@ pipeline{
                 sshagent([cred]){
                     sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
                     cd ${directory}
-                    docker build -t fama-frontend .
+                    docker build -t faizal-frontend .
                     exit
                     EOF"""
                     }
@@ -158,7 +158,7 @@ pipeline{
                 sshagent([cred]){
                     sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
                     cd ${directory}
-		    docker tag fama-frontend:latest ${image}
+		    docker tag faizal-frontend:latest ${image}
                     docker push ${image}
                     exit
                     EOF"""
