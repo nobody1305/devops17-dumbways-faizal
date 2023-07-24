@@ -55,7 +55,7 @@ ansible all -m ping
 
 kemudian kita akan membuat teks yml ansible untuk menjalankan instalasi aplikasi dan lain lain
 
-install sudo apt install whois dan jalankan
+install sudo apt install whois dan jalankan command dibawah untuk mendapatkan password enkripsi supaya bisa menggunakan password yang sama sebagai user
 
 printf "badpassword" | mkpasswd --stdin --methoed=sha-256
 
