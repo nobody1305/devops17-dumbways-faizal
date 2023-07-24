@@ -55,6 +55,10 @@ ansible all -m ping
 
 kemudian kita akan membuat teks yml ansible untuk menjalankan instalasi aplikasi dan lain lain
 
+install sudo apt install whois dan jalankan
+
+printf "badpassword" | mkpasswd --stdin --methoed=sha-256
+
 buat user baru 
 ```
 - hosts: all
