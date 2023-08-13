@@ -129,3 +129,8 @@ kemudian masukkan juga contact poin untuk notifier dari sistem
 <img width="789" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/017d8047-3609-46da-8842-7bde5d828e3e">
 
 <img width="865" alt="image" src="https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/d4235594-d95a-4ffb-b40e-55cdf5f06eb4">
+
+contoh template grafana
+
+![image](https://github.com/fifa0903/devops17-dumbways-faizal/assets/132969781/15f34fff-9c81-49be-a9d2-cf9f2b23dc4a)
+
